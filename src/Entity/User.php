@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use App\Interfaces\GenericTraitInterface;
+use App\Traits\GenericTrait;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
 use Doctrine\ORM\Mapping as ORM;
@@ -11,8 +13,9 @@ use Symfony\Component\Validator\Constraints as Assert;
  * @ORM\Entity(repositoryClass="App\Repository\UserRepository")
  * @UniqueEntity(fields={"email"}, message="Un utilisateur avec cet email existe déjà.")
  */
-class User implements UserInterface
+class User implements UserInterface, GenericTraitInterface
 {
+    use GenericTrait;
     /**
      * @ORM\Column(type="string", nullable=true, length=255)
      * @Assert\Length(
