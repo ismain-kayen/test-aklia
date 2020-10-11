@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="500e637b-4b32-40fc-a351-64d71c00821b" name="Default Changelist" comment="" />
+    <list default="true" id="500e637b-4b32-40fc-a351-64d71c00821b" name="Default Changelist" comment="Create entity User">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test-aklia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-aklia.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +53,77 @@
       <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ikP7af7w6SdwXPOL5yMRR46egY" />
@@ -61,13 +136,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ismai\app\test-aklia\src" />
+      <recent name="C:\Users\ismai\app\test-aklia\templates" />
+      <recent name="C:\Users\ismai\app\test-aklia\src\Controller" />
+      <recent name="C:\Users\ismai\app\test-aklia\migrations" />
       <recent name="C:\Users\ismai\app\test-aklia\src\Repository" />
-      <recent name="C:\Users\ismai\app\test-aklia\src\Entity" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -93,11 +170,181 @@
       <option name="presentableId" value="Default" />
       <updated>1602448450086</updated>
       <workItem from="1602448452510" duration="195000" />
-      <workItem from="1602454026827" duration="438000" />
+      <workItem from="1602454026827" duration="5801000" />
     </task>
+    <task id="LOCAL-00001" summary="Config driver database sqlite">
+      <created>1602455359781</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602455359782</updated>
+    </task>
+    <task id="LOCAL-00002" summary="creation interface GenericTraitInterface">
+      <created>1602455644443</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602455644443</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creation entity table">
+      <created>1602455764108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602455764108</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Creation GenericTrait and share these properties in user enity">
+      <created>1602456002630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602456002630</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creation GenericTraitListener to manage entity lifecycle">
+      <created>1602456237920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602456237920</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Migration: creation database and user table">
+      <created>1602456481802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602456481802</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Creation HomeController">
+      <created>1602456875063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602456875063</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creation LoginFormAuthenticator">
+      <created>1602457083475</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602457083475</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Creation SecurityController to manage authentication and config security api">
+      <created>1602457419301</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602457419301</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Creation RegistrationType form">
+      <created>1602457554688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602457554688</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Setting up the password constraint">
+      <created>1602457680585</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602457680586</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Creation service SecurityManger to manage User registration">
+      <created>1602457842202</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602457842202</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Add Register action">
+      <created>1602457925507</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602457925507</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add bootstrap 4 theme">
+      <created>1602458035195</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602458035195</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add Bootstrap4css and customize base.html.twig">
+      <created>1602458203985</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602458203985</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Install orm-fixtures">
+      <created>1602458855609</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602458855610</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Creation user fixtures for testing">
+      <created>1602458936397</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602458936397</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Change local to FR">
+      <created>1602459161759</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602459161759</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Config driver database sqlite" />
+    <MESSAGE value="creation interface GenericTraitInterface" />
+    <MESSAGE value="Creation entity table" />
+    <MESSAGE value="Creation GenericTrait and share these properties in user enity" />
+    <MESSAGE value="Creation GenericTraitListener to manage entity lifecycle" />
+    <MESSAGE value="Migration: creation database and user table" />
+    <MESSAGE value="Creation HomeController" />
+    <MESSAGE value="Creation LoginFormAuthenticator" />
+    <MESSAGE value="Creation SecurityController to manage authentication and config security api" />
+    <MESSAGE value="Creation RegistrationType form" />
+    <MESSAGE value="Setting up the password constraint" />
+    <MESSAGE value="Creation service SecurityManger to manage User registration" />
+    <MESSAGE value="Add Register action" />
+    <MESSAGE value="Add bootstrap 4 theme" />
+    <MESSAGE value="Add Bootstrap4css and customize base.html.twig" />
+    <MESSAGE value="Install orm-fixtures" />
+    <MESSAGE value="Creation user fixtures for testing" />
+    <MESSAGE value="Change local to FR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change local to FR" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="95" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602457493126">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="95" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602457493126" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1602459874737">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1602459874737" />
+    <state x="122" y="50" key="DiffContextDialog" timestamp="1602458132987">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="122" y="50" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1602458132987" />
+    <state x="486" y="51" key="RollbackChangesDialog" timestamp="1602456790016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="486" y="51" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1602456790016" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1602457138405">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1602457138405" />
   </component>
 </project>
